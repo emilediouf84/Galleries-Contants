@@ -11,7 +11,7 @@ import { GalleryService } from '../services/gallery.service';
 export class GalleryComponent implements OnInit {
   pagePhotos:any;
   currentPage:number=1;
-  size:number=100;
+  size:number=4;
   i:number;
   motCle:string="";
   totalPages:number;
